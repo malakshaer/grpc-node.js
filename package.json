@@ -4,11 +4,12 @@
   "description": "Building grpc Service Server Note CRUD API with node.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "malakshaer",
   "license": "ISC",
   "dependencies": {
+    "@grpc/proto-loader": "^0.7.6",
     "grpc": "^1.24.11",
     "uuid": "^9.0.0"
   }
